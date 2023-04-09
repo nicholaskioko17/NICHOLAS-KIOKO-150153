@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+   background-size: cover;
+   background-color: #666;
+   background-position: center;
+   position: relative;
+}
+.lbground{
+    width: 100%;
+    height: 100vh;
+   background-size: cover;
+background-color: #666;
+   background-position: center;
+   position: relative;
+}
+.form{
+    width: 100%;
+    max-width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    position: absolute;
+    background-color: white;
+    /* background-color: #fff; */
+    padding: 50px 60px 70px;
+    border-radius: 30px;  
+}
+.form h2{
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 30px;
+    color: black;
+    margin-top: 2px;
+    text-align: center;
+    display: block;
+}
+
+input{
+    width: 100%;
+    background: wheat;
+    border: 0;
+    outline: 0;
+    padding: 10px 25px;
+}
+.button{
+    width: 70%;
+    border-radius: 10px;
+}
+.button:hover{
+    background: #555;
+    color: white;
+    cursor: pointer;
+}
+.ifield{
+    margin: 20px 0;
+    border-radius: 3px;
+    /* display: flex; */
+    align-items: center;
+    background-color: gainsboro;
+    max-height: 65px;
+    position: relative;
+}
+.start{
+    background-image: url(start.jpeg);
+}
+.logout a{
+    text-decoration: none;
+    color: white;
+    background-color: blanchedalmond;
+}
+.logout a:hover{
+    color: black;
+    background-color: #fff;
+}
